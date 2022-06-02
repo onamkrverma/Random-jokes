@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: rgb(91, 7, 169);
+    font-family: cursive;
+
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h3{
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 460px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.joke{
+    margin: 50px;
+    text-align: center;
+}
+
+.btn{
+    margin: 10px;
+    color: black;
+    background: yellow;
+    padding: 10px;
+    border: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 2px 3px 1px 0px rgb(118 97 97);
+}
+
+.btn:hover{
+    background-color: rgb(162, 241, 102);
+}
